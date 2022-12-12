@@ -6,52 +6,70 @@ show cartoon, (chain A)
 color white
 
 set_color color1, [0.000,0.040,1.000]
-create sector1, (resi 76,13,173,98,113,94,116,112,81,162,48,60,88,179,178,103,84,52,120,108,7,63,136,49,121,165,181,174,6,175,169,125,109,92,20,168,172,167,56,44,97,10,115,107,105,86,14,91,100,53,171,177,61,117,166,110,176,93,147,126,89,95) & (chain A)
+create sector1, (resi 51,13,135,149,59,58,62,140,201,68,55,206,196,209,66,142,178,151,130,157,207,14,176,138,150,24,146,200,133,184,247,185,217,152,153,28,160,53,80,145,141,123,154,91,225,158,52,120) & (chain A)
 color color1, sector1
 show spheres, sector1
 show surface, sector1
 
 set_color color2, [1.000,0.000,0.000]
-create sector2, (resi 75,62,158,163,150,58,9,137,12,133,159,78,17) & (chain A)
+create sector2, (resi 143,147,136,8,128,15,159,127,17,115,214,114,27,137,208,126,63,220,98,57,71) & (chain A)
 color color2, sector2
 show spheres, sector2
 show surface, sector2
 
 set_color color_ic1, [1.000,0.000,0.000]
-create ic_1, (resi 13,98,113,94,112,52,165,174,169,44,91,100,110,93) & (chain A)
+create ic_1, (resi 51,13,135,149,14,133,152,153,160,145,123,154,91,158,52,120) & (chain A)
 color color_ic1, ic_1
 show spheres, ic_1
 show surface, ic_1
 
-set_color color_ic2, [1.000,1.000,0.000]
-create ic_2, (resi 76,173,48,84,108,7,136,49,121,109,20,172,167,97,10,107,14,53,171,61,117,166,176,147) & (chain A)
+set_color color_ic2, [1.000,0.667,0.000]
+create ic_2, (resi 59,140,201,206,178,157,207,176,150,146,184,217,53,80,225) & (chain A)
 color color_ic2, ic_2
 show spheres, ic_2
 show surface, ic_2
 
-set_color color_ic3, [0.000,1.000,0.000]
-create ic_3, (resi 116,81,162,60,88,179,178,103,120,63,181,6,175,125,92,168,56,115,105,86,177,126,89,95) & (chain A)
+set_color color_ic3, [0.667,1.000,0.000]
+create ic_3, (resi 58,62,68,55,196,209,66,142,151,130,138,24,200,247,185,28,141) & (chain A)
 color color_ic3, ic_3
 show spheres, ic_3
 show surface, ic_3
 
-set_color color_ic4, [0.000,1.000,1.000]
-create ic_4, (resi 75,62,158,163,150,58,9,137,12,133,159,78,17) & (chain A)
+set_color color_ic4, [0.000,1.000,0.000]
+create ic_4, (resi 143,8,159,115,114,27,208,220,98) & (chain A)
 color color_ic4, ic_4
 show spheres, ic_4
 show surface, ic_4
 
-set_color color_ic5, [0.000,0.000,1.000]
-create ic_5, (resi 21,19,28,80,90,82,29,99,143,22) & (chain A)
+set_color color_ic5, [0.000,1.000,0.667]
+create ic_5, (resi ) & (chain A)
 color color_ic5, ic_5
 show spheres, ic_5
 show surface, ic_5
 
-set_color color_ic6, [1.000,0.000,1.000]
-create ic_6, (resi 42,122,87,146,182) & (chain A)
+set_color color_ic6, [0.000,0.667,1.000]
+create ic_6, (resi 147,136,128,15,127,17,214,137,126,63,57,71) & (chain A)
 color color_ic6, ic_6
 show spheres, ic_6
 show surface, ic_6
+
+set_color color_ic7, [0.000,0.000,1.000]
+create ic_7, (resi 102,193) & (chain A)
+color color_ic7, ic_7
+show spheres, ic_7
+show surface, ic_7
+
+set_color color_ic8, [0.667,0.000,1.000]
+create ic_8, (resi 20,21,162,11,16,84,10,204,25,65,161) & (chain A)
+color color_ic8, ic_8
+show spheres, ic_8
+show surface, ic_8
+
+set_color color_ic9, [1.000,0.000,0.667]
+create ic_9, (resi 189,60,191,188,205,203,192,183,174,131,75,132,199,224) & (chain A)
+color color_ic9, ic_9
+show spheres, ic_9
+show surface, ic_9
 
 zoom
 set transparency, 0.4
